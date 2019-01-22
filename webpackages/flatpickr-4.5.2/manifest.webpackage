@@ -1,0 +1,35 @@
+{
+  "name": "flatpickr-4.5.2",
+  "groupId": "",
+  "version": "1.0.0",
+  "modelVersion": "9.1.1",
+  "docType": "webpackage",
+  "author": {
+    "name": "Maximilian Hamm",
+    "email": "maximilian.hamm@incowia.com"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://flatpickr.js.org/",
+  "man": [
+    "https://github.com/flatpickr/flatpickr"
+  ],
+  "artifacts": {
+    "apps": [],
+    "elementaryComponents": [],
+    "compoundComponents": [],
+    "utilities": [
+      {
+        "artifactId": "flatpickr",
+        "description": "Wrapper for flatpickr datepicker UI",
+        "resources": [
+          {
+            "dev": "flatpickr.html",
+            "prod": "flatpickr.min.html"
+          }
+        ],
+        "dependencies": []
+      }
+    ]
+  }
+}
